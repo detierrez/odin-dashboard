@@ -5,13 +5,199 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link href="./src/font/Open_Sans/opensans-variablefont_wdthwght-webfont.woff2" rel="preload" as="font" crossorigin>
+    <link rel="stylesheet" href="/css/modern-normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p><em>Lorem ipsum dolor sit</em>, amet consectetur adipisicing elit. Totam voluptatem magni ex error rerum.
-        Consectetur,
-        quos? Veritatis, provident deleniti labore laudantium, at delectus debitis rerum a, quidem quisquam eveniet
-        voluptatem.</p>
+    <div class="sidebar">
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/view-dashboard.svg" alt="#">
+            Dashboard
+        </a>
+        <div></div>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/home.svg" alt="#">
+            Home
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/account.svg" alt="#">
+            Profile
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/message.svg" alt="#">
+            Messages
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/clock-time-four.svg" alt="#">
+            History
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/note-check.svg" alt="#">
+            Tasks
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/account-group.svg" alt="#">
+            Communities
+        </a>
+        <div></div>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/cog.svg" alt="#">
+            Settings
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/lifebuoy.svg" alt="#">
+            Support
+        </a>
+        <a class="side-link" href="#">
+            <img class="svg-white" src="./src/img/icon/shield-lock.svg" alt="#">
+            Privacy
+        </a>
+    </div>
+    <div class="head card">
+        <div class="search">
+            <img src="./src/img/icon/magnify.svg" alt="search">
+            <input type="text" name="search" id="search">
+            <div class="blank"></div>
+            <img src="./src/img/icon/bell-ring-outline.svg" alt="notifications">
+            <img class="placeholder" src="./src/img/pfp/dog-9548923_640.jpg" alt="">
+            <a href="#">Morgan Oakley</a>
+        </div>
+        <div class="actions">
+            <!-- <div class="placeholder">
+                <img src="./src/img/pfp/dog-9548923_640.jpg" alt="">
+            </div> -->
+            <img class="placeholder" src="./src/img/pfp/dog-9548923_640.jpg" alt="">
+
+            <div class="greeting">
+                <h3>Hi there,</h3>
+                <h2>Morgan Oakley (@morgan)</h2>
+            </div>
+            <a href="#">New</a>
+            <a href="#">Upload</a>
+            <a href="#">Share</a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="projects-area">
+            <h3>Your Projects</h3>
+            <div class="projects">
+                <div class="project card">
+                    <h4>Super Cool Project</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis id corporis eius
+                        exercitationem veritatis nostrum.
+                    </p>
+                    <div class="project-actions">
+                        <a href="#"><img src="./src/img/icon/star-plus-outline.svg" alt="Add favorites"></a>
+                        <a href="#"><img src="./src/img/icon/eye-plus-outline.svg" alt="Add watchlist"></a>
+                        <a href="#"><img src="./src/img/icon/source-fork.svg" alt="Fork project"></a>
+                    </div>
+                </div>
+                <div class="project card">
+                    <h4>Less Cool Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis id corporis eius
+                        exercitationem veritatis nostrum.</p>
+                    <div class="project-actions">
+                        <a href=""><img src="./src/img/icon/star-plus-outline.svg" alt="Add favorites"></a>
+                        <a href=""><img src="./src/img/icon/eye-plus-outline.svg" alt="Add watchlist"></a>
+                        <a href=""><img src="./src/img/icon/source-fork.svg" alt="Fork project"></a>
+                    </div>
+                </div>
+                <div class="project card">
+                    <h4>Impossible Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis id corporis eius
+                        exercitationem veritatis nostrum.</p>
+                    <div class="project-actions">
+                        <a href=""><img src="./src/img/icon/star-plus-outline.svg" alt="Add favorites"></a>
+                        <a href=""><img src="./src/img/icon/eye-plus-outline.svg" alt="Add watchlist"></a>
+                        <a href=""><img src="./src/img/icon/source-fork.svg" alt="Fork project"></a>
+                    </div>
+                </div>
+                <div class="project card">
+                    <h4>Easy Peasy App</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis id corporis eius
+                        exercitationem veritatis nostrum.</p>
+                    <div class="project-actions">
+                        <a href=""><img src="./src/img/icon/star-plus-outline.svg" alt="Add favorites"></a>
+                        <a href=""><img src="./src/img/icon/eye-plus-outline.svg" alt="Add watchlist"></a>
+                        <a href=""><img src="./src/img/icon/source-fork.svg" alt="Fork project"></a>
+                    </div>
+                </div>
+                <div class="project card">
+                    <h4>Ad Blocker</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis id corporis eius
+                        exercitationem veritatis nostrum.</p>
+                    <div class="project-actions">
+                        <a href=""><img src="./src/img/icon/star-plus-outline.svg" alt="Add favorites"></a>
+                        <a href=""><img src="./src/img/icon/eye-plus-outline.svg" alt="Add watchlist"></a>
+                        <a href=""><img src="./src/img/icon/source-fork.svg" alt="Fork project"></a>
+                    </div>
+                </div>
+                <div class="project card">
+                    <h4>Money Maker</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio reiciendis id corporis eius
+                        exercitationem veritatis nostrum.</p>
+                    <div class="project-actions">
+                        <a href=""><img src="./src/img/icon/star-plus-outline.svg" alt="Add favorites"></a>
+                        <a href=""><img src="./src/img/icon/eye-plus-outline.svg" alt="Add watchlist"></a>
+                        <a href=""><img src="./src/img/icon/source-fork.svg" alt="Fork project"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="announcements-area">
+            <h3>Announcements</h3>
+            <div class="announcements card">
+                <div class="announcement">
+                    <h4>Site maintenance</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dolorem exercitationem...
+                    </p>
+                </div>
+                <div class="announcement">
+                    <h4>Community Share Day</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dolorem exercitationem...
+                    </p>
+                </div>
+                <div class="announcement">
+                    <h4>Updated Privacy Policy</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dolorem exercitationem...
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="trending-area">
+            <h3>Trending</h3>
+            <div class="trending card">
+                <a href="#" class="profile">
+                    <div class="placeholder">
+                        <img src="./src/img/pfp/cat-6883603_640.png" alt="">
+                    </div>
+                    <div class="username">@tengan</div>
+                    <div class="title">World Peace Builder</div>
+                </a>
+                <a href="#" class="profile">
+                    <div class="placeholder">
+                        <img src="./src/img/pfp/dog-9548923_640.jpg" alt="">
+                    </div>                    <div class="username">@morgan</div>
+                    <div class="title">Super Cool Project</div>
+                </a>
+                <a href="#" class="profile">
+                    <div class="placeholder">
+                        <img src="./src/img/pfp/toy-5623303_640.jpg" alt="">
+                    </div>
+                    <div class="username">@kendall</div>
+                    <div class="title">Life Changing App</div>
+                </a>
+                <a href="#" class="profile">
+                    <div class="placeholder">
+                        <img src="./src/img/pfp/space-rocket-6927060_640.jpg" alt="">
+                    </div>
+                    <div class="username">@alex</div>
+                    <div class="title">No Traffic Maker</div>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
